@@ -1,5 +1,8 @@
 Resource/
 data/
 MACH/results/
+MACH/minimac2/
 BEAGLE/results/
+BEAGLE/beagle*jar
 IMPUTE2/results/
+IMPUTE2/impute2_v*

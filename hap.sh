@@ -11,10 +11,12 @@ ROOT_DIR=./
 DATA_DIR=${ROOT_DIR}data/
 # reference directory
 REF_DIR='/home/rexren/KGBIG/impReference/1000genomes/1000GP_Phase3/'
+# helper directory
+HELP_DIR=${ROOT_DIR}helper/
 
 
 # SHAPEIT executable
-SHAPEIT_EXEC=${ROOT_DIR}shapeit/shapeit
+SHAPEIT_EXEC=${HELP_DIR}shapeit/shapeit
 # input GWAS file
 INPUT_GWAS_FILE=${DATA_DIR}${FILENAME}_23ANDME
 

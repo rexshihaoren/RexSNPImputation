@@ -12,10 +12,11 @@ ROOT_DIR=./
 DATA_DIR=${ROOT_DIR}data/
 # reference directory
 REF_DIR='/home/rexren/KGBIG/impReference/1000genomes/1000GP_Phase3/'
-
+# helper directory
+HELP_DIR=${ROOT_DIR}helper/
 
 # PLINK executable (must be 1.9 or above)
-PLINK_EXEC=/home/rexren/plink/plink
+PLINK_EXEC=${HELP_DIR}plink/plink
 # input SNPs file
 INPUT_SNPs_FILE=${DATA_DIR}${SNP_TXT}
 # input vcf file
