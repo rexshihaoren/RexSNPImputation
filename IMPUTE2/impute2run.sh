@@ -36,7 +36,7 @@ LEGEND_FILE=${REF_DIR}1000GP_Phase3_chr${CHR}.legend.gz
 # haplotypes from shapeit
 PHASED_HAPS_FILE=${DATA_DIR}${FILENAME}_23ANDME.phased.haps
 # main output file
-OUTPUT_FILE=${RESULTS_DIR}${FILENAME}_23ANDME.pos${CHUNK_START}-${CHUNK_END}.impute2
+OUTPUT_FILE=${RESULTS_DIR}${FILENAME}.pos${CHUNK_START}-${CHUNK_END}.impute2
 
  
  

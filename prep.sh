@@ -39,5 +39,5 @@ sh ./convert.sh $ME_NAME $CHR
 sh ./extract.sh $CHR
 # prephasing
 # sh ./pre-phasing.sh $CHR $CHUNK_START $CHUNK_END
-# haplotyping
-# sh ./hap.sh $CHR
+haplotyping
+sh ./hap.sh $CHR
